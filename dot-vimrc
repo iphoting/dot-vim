@@ -12,11 +12,16 @@ set background=light
 colorscheme solarized
 endif
 
-set nocompatible   " Disable vi-compatibility
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show unicode glyphs
-set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
+set nocompatible	" Disable vi-compatibility
+set laststatus=2	" Always show the statusline
+set encoding=utf-8	" Necessary to show unicode glyphs
+set t_Co=256		" Explicitly tell vim that the terminal supports 256 colors
 
-let g:Powerline_symbols = 'unicode'
+let g:Powerline_symbols = 'unicode' " Beautiful powerline.
 
-set number " Turns on line numbers.
+set number		" Turns on line numbers.
+set showmatch		" Show matching parentheses
+set mps+=<:>		" Make % work with <>
+set ruler		" Show the position of the cursor
+set bs=2		" Default backspace like normal
+
