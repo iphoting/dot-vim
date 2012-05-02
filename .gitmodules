@@ -22,3 +22,6 @@
 [submodule "bundle/rainbow.vim"]
 	path = bundle/rainbow.vim
 	url = git://github.com/kien/rainbow_parentheses.vim.git
+[submodule "bundle/vim-scmdiff"]
+	path = bundle/vim-scmdiff
+	url = git://github.com/iphoting/vim-scmdiff.git
