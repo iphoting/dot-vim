@@ -19,3 +19,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git://github.com/hallison/vim-markdown.git
+[submodule "bundle/rainbow.vim"]
+	path = bundle/rainbow.vim
+	url = git://github.com/kien/rainbow_parentheses.vim.git
