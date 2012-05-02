@@ -18,6 +18,7 @@ set encoding=utf-8	" Necessary to show unicode glyphs
 set t_Co=256		" Explicitly tell vim that the terminal supports 256 colors
 
 let g:Powerline_symbols = 'unicode' " Beautiful powerline.
+let g:Powerline_stl_path_style = 'short' " Show short paths in filenames.
 
 set number		" Turns on line numbers.
 set showmatch		" Show matching parentheses
