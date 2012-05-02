@@ -1,0 +1,22 @@
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+
+call pathogen#runtime_append_all_bundles()
+autocmd BufRead,BufNewFile *.py syntax on
+autocmd BufRead,BufNewFile *.py set ai
+autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+
+if has('gui_running')
+set background=light
+colorscheme solarized
+endif
+
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show unicode glyphs
+set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
+
+let g:Powerline_symbols = 'unicode'
+
+set number " Turns on line numbers.
