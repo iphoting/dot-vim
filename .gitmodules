@@ -34,3 +34,6 @@
 [submodule "bundle/vsearch.vim"]
 	path = bundle/vsearch.vim
 	url = git://github.com/BenBergman/vsearch.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
