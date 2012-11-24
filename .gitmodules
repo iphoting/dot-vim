@@ -37,3 +37,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle/vim-ledger"]
+	path = bundle/vim-ledger
+	url = git://github.com/ledger/vim-ledger.git
