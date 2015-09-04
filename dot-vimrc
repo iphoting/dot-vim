@@ -25,4 +25,5 @@ set showmatch		" Show matching parentheses
 set mps+=<:>		" Make % work with <>
 set ruler		" Show the position of the cursor
 set bs=2		" Default backspace like normal
+set ts=4
 
