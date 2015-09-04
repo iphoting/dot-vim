@@ -40,3 +40,6 @@
 [submodule "bundle/vim-ledger"]
 	path = bundle/vim-ledger
 	url = git://github.com/ledger/vim-ledger.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim.git
