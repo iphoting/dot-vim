@@ -2,7 +2,6 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
-call pathogen#runtime_append_all_bundles()
 autocmd BufRead,BufNewFile *.py syntax on
 autocmd BufRead,BufNewFile *.py set ai
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
